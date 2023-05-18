@@ -1,5 +1,6 @@
 from functions import get_todos, write_todos
 import time
+print("below is a usage of time module")
 now = time.strftime("%b %d %y, %H:%M:%S")
 print(f"It's now {now}")
 while True:
