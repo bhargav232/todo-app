@@ -1,0 +1,9 @@
+[{
+  "que_text": "what are dolphins?",
+  "Alternatives": ["amphabians","fish","mamals","birds"],
+  "correct_ans": 3
+}, {
+  "que_text": "what occupies most of the earth surface?",
+  "Alternatives": ["water","land"],
+   "correct_ans": 1
+  }]
