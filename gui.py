@@ -7,8 +7,8 @@ button1 = sg.Button("ADD")
 list_box = sg.Listbox(values=functions.get_todos(), key="todos",
                       enable_events=True, size=[45,10])
 button2 = sg.Button("EDIT")
-window = sg.Window('My Todo App', layout=[[label], [Input_box, button1],
-                                          [list_box, button2]])
+layout = [[label], [Input_box, button1], [list_box, button2]]
+window = sg.Window('My Todo App', layout=layout)
 while 1:
     value, item = window.read()
     print(value)
